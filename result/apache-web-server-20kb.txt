@@ -1,0 +1,35 @@
+Server Software:        Apache/2.4.18
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        20000 bytes
+
+Concurrency Level:      10000
+Time taken for tests:   0.754 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      202740000 bytes
+HTML transferred:       200000000 bytes
+Requests per second:    13270.71 [#/sec] (mean)
+Time per request:       753.539 [ms] (mean)
+Time per request:       0.075 [ms] (mean, across all concurrent requests)
+Transfer rate:          262744.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    3  14.4      0     101
+Processing:     1   14  69.1      5     652
+Waiting:        1   13  69.1      5     652
+Total:          3   16  80.2      5     743
+
+Percentage of the requests served within a certain time (ms)
+  50%      5
+  66%      7
+  75%      7
+  80%      8
+  90%      9
+  95%     11
+  98%     89
+  99%    735
+ 100%    743 (longest request)
